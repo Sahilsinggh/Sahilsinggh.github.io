@@ -32,7 +32,7 @@ export const Navbar = () => {
         <div
           className={`${
             toggleMenu ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[200px] rounded-xk sidebar`}
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[200px] rounded-xk sidebar z-[10]`}
         >
           <ul className="list-none flex flex-col justify-end items-start flex-1">
             {navLinks.map((navLink: navLinkItemProps, index: number) => (

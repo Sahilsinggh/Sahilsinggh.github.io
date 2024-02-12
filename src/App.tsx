@@ -34,7 +34,6 @@ function App() {
           <Skills />
           <Project />
           <Contact />
-          <Contact />
         </div>
       </div>
       <Footer />

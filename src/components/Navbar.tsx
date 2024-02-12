@@ -32,14 +32,14 @@ export const Navbar = () => {
         <div
           className={`${
             toggleMenu ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[200px] rounded-xk sidebar z-[10]`}
+          } p-4 bg-black-gradient absolute top-20 right-0 mx-1 my-2 min-w[200px] rounded-xk sidebar z-[4]`}
         >
           <ul className="list-none flex flex-col justify-end items-start flex-1">
             {navLinks.map((navLink: navLinkItemProps, index: number) => (
               <li
                 key={navLink.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
-                  index === navLinks.length - 1 ? "mr-0" : "mb-3"
+                  index === navLinks.length - 1 ? "mr-0" : "mb-2"
                 } `}
               >
                 <a href={`#${navLink.id}`}>{navLink.title}</a>

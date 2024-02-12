@@ -6,9 +6,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export const Contact = () => {
   // currently variable name is not being used as we are using 3rd party which is direclty sending data to mentioned email.
+  //@ts-ignore
   const [firstName, setFirstName] = useState<string | null>();
+  //@ts-ignore
   const [lastName, setLastName] = useState<string | null>();
+  //@ts-ignore
   const [email, setEmail] = useState<string | null>();
+  //@ts-ignore
   const [comments, setComments] = useState<string | null>();
 
   return (

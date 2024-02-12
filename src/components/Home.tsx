@@ -27,7 +27,7 @@ export const Home = () => {
         <img
           src={profile}
           alt="profile"
-          className="w-[100%] h-[100%] relative sm:border-0 border-b-[1px] border-b-[#3F3E45]"
+          className="w-[100%] h-[100%] relative z-[5] sm:border-0 border-b-[1px] border-b-[#3F3E45]"
         />
         <div className="absolute z-[0] w-[45%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] bottom-40 rounded-full white__gradient" />
